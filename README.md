@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Guia-sass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inpiracion del proyecto & objetivo
 
-## Available Scripts
+- Aprende a usar Sass para crear una aplicación web.
+- Entender las diferentes funciones de Sass.
 
-In the project directory, you can run:
+El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9kAzsz1LM1/Github-projects?node-id=0%3A1) por Carlos cruz valencia
 
-### `npm start`
+## Tecnologias usadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Ide
+    <!-- visual studio code -->
+    <code><img height="25" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></code>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- lenguajes/frameworks usados
+    <!-- bootstrap -->
+    <!-- html -->
+    <code><img height="30" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></code><!-- css -->
+    <code><img height="30" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></code><!-- sass -->
+    <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code>
 
-### `npm test`
+## Vista previa del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``vista no disponible``
+<!-- <img src="project-preview.png" aling="center"></img> -->
+<!-- <img src="project-preview.gif" aling="center"></img> -->
 
-### `npm run build`
+## Estado del proyecto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+|Trabajando en el proyecto|✔️|
+| -------------------------- | :----------------: |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- <details> el desplegable estara desactivado -->
+<!-- <details open> el desplegable estara activo -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details open >
+<summary>⚙️ documentacion del proyecto ⚙️</summary>
 
-### `npm run eject`
+1. instalacion de sass 
+   
+    <details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    <summary>⚙️ Como instalar npm/choco/brew⚙️</summary>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - puedes selecionar entre los siguientes: lts (Latest) o actual (Current)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      - [Descargar el instalador de node](https://nodejs.org/es/)
+      - [Sigue la gia de chocolatey](https://nodejs.org/es/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    </details>   
+    via npm
 
-## Learn More
+    ```npm install -g sass```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    via chocolatey
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```choco install sass```
+2. structura
+    ```text
+    /
+    └── src/
+    │    └── styles/
+    │        ├── css/
+    │        │   └── main.css
+    │        └── sass/
+    │            ├── base/
+    │            ├── components/
+    │            ├── layouts/
+    │            └── main.scss
+    └── index.html
+    ```
 
-### Code Splitting
+    ``assets`` es el directorio de los archivos que se van a usar en el proyecto. (imagenes, videos, etc)
+    ``styles`` es el directorio de los archivos de estilos. (css, sass, etc)
+    ``css`` es el directorio de los archivos de estilos en css. (main.css)
+    ``sass`` es el directorio de los archivos de estilos en sass.
+    
+    - ``base`` es el directorio de los archivos de configuracion de sass.
+      ``components`` es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc)
+      ``layouts`` es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc)
+      ``main.scss`` es el archivo de estilos principal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</details >
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+<!-- └── / ├── │ -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Licencia
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
 
-### Deployment
+<!-- ## !codigo temporal¡
+## git update code
+```shell
+git add -A && git commit -a -m \"update\" && git push
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## sass compiler code
+```shell
+sass -w --style compressed assets/styles/sass/main.scss assets/styles/css/main.css
+``` -->
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- emojis  -->
+<!-- https://tutorialmarkdown.com/emojis -->
