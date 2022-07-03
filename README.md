@@ -37,11 +37,16 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 <details open >
 <summary>⚙️ documentacion del proyecto ⚙️</summary>
 
-1. instalacion de sass 
+1. crearmos el proyecto de react
+   
+   ```npx create-react-app nombre-del-proyecto```
+
+2. instalacion de sass 
    
     <details>
 
     <summary>⚙️ Como instalar npm ⚙️</summary>
+
 
       - [Descargar el instalador de node](https://nodejs.org/es/)
 
@@ -50,19 +55,18 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
     ```npm install i sass```
 
-2. structura
+3. structura
     ```text
     /
     └── src/
-    │    └── styles/
-    │        ├── css/
-    │        │   └── main.css
-    │        └── sass/
-    │            ├── base/
-    │            ├── components/
-    │            ├── layouts/
-    │            └── main.scss
-    └── index.html
+         └── styles/
+             ├── css/
+             │   └── main.css
+             └── sass/
+                 ├── base/
+                 ├── components/
+                 ├── layouts/
+                 └── main.scss
     ```
 
     ``assets`` es el directorio de los archivos que se van a usar en el proyecto. (imagenes, videos, etc)
