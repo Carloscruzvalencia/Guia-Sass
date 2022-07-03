@@ -114,33 +114,34 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     }
     ```
     <details>
-    <summary>⚙️ CSS ⚙️</summary>
+    <summary>⚙️ Como seria en CSS ⚙️</summary>
 
-        
-        body {
-            color: #fff;
-            background-color: #000;
-        }
-        body main {
-            color: #fff;
-            background-color: #000;
-        }
-        body main nav {
-            color: #fff;
-            background-color: #000;
-        }
-        body main nav ul li {
-            color: #fff;
-            background-color: #000;
-        }
-        body main header {
-            color: #fff;
-            background-color: #000;
-        }
-        body main footer {
-            color: #fff;
-            background-color: #000;
-        }
+        ```css	
+            body {
+                color: #fff;
+                background-color: #000;
+            }
+            body main {
+                color: #fff;
+                background-color: #000;
+            }
+            body main nav {
+                color: #fff;
+                background-color: #000;
+            }
+            body main nav ul li {
+                color: #fff;
+                background-color: #000;
+            }
+            body main header {
+                color: #fff;
+                background-color: #000;
+            }
+            body main footer {
+                color: #fff;
+                background-color: #000;
+            }
+        ```
     </details >
 
     Si el archivo de estilos es ``main.sass``, entonces la sintaxis es:
@@ -170,13 +171,50 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
           color: #fff
           background-color: #000
     ```
-    no se usan los caracteres ``{`` ``}`` ``;``.
+    En los archivos ``.sass`` no se usan los caracteres ``{`` ``}`` ``;``.
 
-2. Instalamos sass  
+2. Creamos un archivo en el directorio sass/layouts con el nombre de ``_landing.scss``
 
-3. Structura de sass (ejemplo)
+3. Diferencia entre _landing.scss y landing.scss
 
-4. Integramos sass en nuestro proyecto
+    En sass si un archivo enpieza con ``_``landing.scss no se genera un archivo con el mismo nombre.
+
+    ```text
+        /scss
+            ├──style.scss
+            └──_landing.scss
+        /css
+            ├──style.css
+            └──style.css.map
+    ```
+
+    Pero si un archivo no tiene el caracter ``_`` landing.scss se genera un archivo con el mismo nombre.
+
+    ```text
+        /scss
+            ├──style.scss
+            └──_landing.scss
+        /css
+            ├──style.css
+            ├──style.css.map
+            ├──landing.scss
+            └──landing.scss.map
+    ```
+4. @use o @import
+    
+    En sass no usamos @import se puede usar pero no es recomendado.
+
+    Con ❗❗@import❗❗
+    ```sass
+    @import "sass/layouts/landing.scss";
+    ```
+    con ✔️✔️ @use ✔️✔️
+    ```sass
+    @use "sass/layouts/landing.scss";
+    ```
+
+
+5. Integramos sass en nuestro proyecto
 
 </details >
 
