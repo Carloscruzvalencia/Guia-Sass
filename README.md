@@ -34,21 +34,21 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 <!-- <details> el desplegable estara desactivado -->
 <!-- <details open> el desplegable estara activo -->
 
-<details open >
+<details>
 <summary>⚙️ Instalacion y integracion de sass en react ⚙️</summary>
 
-1. crearmos el proyecto de react
+1. Crearmos el proyecto de react
    
    ```npx create-react-app nombre-del-proyecto```
 
-2. instalamos sass  
+2. Instalamos sass  
 
     via npm:
     ```bash
     npm i sass
     ```
 
-3. structura
+3. Structura de sass (ejemplo)
     ```text
     /
     └── src/
@@ -59,17 +59,17 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
               └── main.scss
     ```
 
-    ``sass`` es el directorio de los archivos de estilos en sass.
+    ``sass`` Es el directorio de los archivos de estilos en sass.
     
-    - ``base`` es el directorio de los archivos de configuracion de sass.
+    - ``base`` Es el directorio de los archivos de configuracion de sass.
 
-      ``components`` es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc)
+      ``components`` Es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc)
 
-      ``layouts`` es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc)
+      ``layouts`` Es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc)
 
-      ``main.scss`` es el archivo de estilos principal.
+      ``main.scss`` Es el archivo de estilos principal.
 
-4. integramos sass en nuestro proyecto
+4. Integramos sass en nuestro proyecto
    
    En el archivo [app.js](src/app.js) en la carpeta [src](src) agregamos el siguiente codigo:
    ```js
@@ -77,6 +77,108 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```
 </details >
 
+
+<details open>
+<summary>⚙️ Como usar sass ⚙️</summary>
+
+1. La sintaxis de sass
+
+    Si el archivo de estilos es ``main.scss``, entonces la sintaxis es:
+    ```scss
+    body{
+        color: #fff;
+        background-color: #000;
+        main{
+            color: #fff;
+            background-color: #000;
+            nav{
+                color: #fff;
+                background-color: #000;
+                ul{
+                    li{
+                        color: #fff;
+                        background-color: #000;
+                    }
+                }
+        
+            }
+            header{
+                color: #fff;
+                background-color: #000;
+            }
+            footer{
+                color: #fff;
+                background-color: #000;
+            }
+        }
+    }
+    ```
+    <details>
+    <summary>⚙️ CSS ⚙️</summary>
+
+        
+        body {
+            color: #fff;
+            background-color: #000;
+        }
+        body main {
+            color: #fff;
+            background-color: #000;
+        }
+        body main nav {
+            color: #fff;
+            background-color: #000;
+        }
+        body main nav ul li {
+            color: #fff;
+            background-color: #000;
+        }
+        body main header {
+            color: #fff;
+            background-color: #000;
+        }
+        body main footer {
+            color: #fff;
+            background-color: #000;
+        }
+    </details >
+
+    Si el archivo de estilos es ``main.sass``, entonces la sintaxis es:
+    ```sass
+    body
+      color: #fff
+      background-color: #000
+  
+      main
+          color: #fff
+          background-color: #000
+  
+          nav
+          color: #fff
+          background-color: #000
+  
+          ul
+              li
+              color: #fff
+              background-color: #000
+  
+          header
+          color: #fff
+          background-color: #000
+  
+          footer
+          color: #fff
+          background-color: #000
+    ```
+    no se usan los caracteres ``{`` ``}`` ``;``.
+
+2. Instalamos sass  
+
+3. Structura de sass (ejemplo)
+
+4. Integramos sass en nuestro proyecto
+
+</details >
 
 
 <!-- └── / ├── │ -->
