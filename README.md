@@ -41,21 +41,15 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
    
     <details>
 
-    <summary>⚙️ Como instalar npm/choco/brew⚙️</summary>
-
-    - puedes selecionar entre los siguientes: lts (Latest) o actual (Current)
+    <summary>⚙️ Como instalar npm ⚙️</summary>
 
       - [Descargar el instalador de node](https://nodejs.org/es/)
-      - [Sigue la gia de chocolatey](https://nodejs.org/es/)
 
     </details>   
     via npm
 
-    ```npm install -g sass```
+    ```npm install i sass```
 
-    via chocolatey
-
-    ```choco install sass```
 2. structura
     ```text
     /
