@@ -61,24 +61,21 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```text
     /
     └── src/
-         └── styles/
-             ├── css/
-             │   └── main.css
-             └── sass/
-                 ├── base/
-                 ├── components/
-                 ├── layouts/
-                 └── main.scss
+         └── sass/
+              ├── base/
+              ├── components/
+              ├── layouts/
+              └── main.scss
     ```
 
-    ``assets`` es el directorio de los archivos que se van a usar en el proyecto. (imagenes, videos, etc)
-    ``styles`` es el directorio de los archivos de estilos. (css, sass, etc)
-    ``css`` es el directorio de los archivos de estilos en css. (main.css)
     ``sass`` es el directorio de los archivos de estilos en sass.
     
     - ``base`` es el directorio de los archivos de configuracion de sass.
+    
       ``components`` es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc)
+      
       ``layouts`` es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc)
+      
       ``main.scss`` es el archivo de estilos principal.
 
 </details >
