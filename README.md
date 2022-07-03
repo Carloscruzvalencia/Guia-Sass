@@ -35,22 +35,17 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 <!-- <details open> el desplegable estara activo -->
 
 <details open >
-<summary>⚙️ documentacion del proyecto ⚙️</summary>
+<summary>⚙️ Instalacion y integracion de sass en react ⚙️</summary>
 
 1. crearmos el proyecto de react
    
    ```npx create-react-app nombre-del-proyecto```
 
-2. instalamos sass 
-   
-    </details>   
-
-    - [Descargar el instalador de node](https://nodejs.org/es/)
+2. instalamos sass  
 
     via npm:
-
-    ```
-    npm install i sass
+    ```bash
+    npm i sass
     ```
 
 3. structura
@@ -74,6 +69,12 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
       ``main.scss`` es el archivo de estilos principal.
 
+4. integramos sass en nuestro proyecto
+   
+   En el archivo [app.js](src/app.js) en la carpeta [src](src) agregamos el siguiente codigo:
+   ```js
+    import './sass/main.scss';
+    ```
 </details >
 
 
