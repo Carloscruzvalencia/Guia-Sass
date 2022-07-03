@@ -43,14 +43,10 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
 2. instalamos sass 
    
-    <details>
-
-    <summary>⚙️ Como instalar npm ⚙️</summary>
-
-
-      - [Descargar el instalador de node](https://nodejs.org/es/)
-
     </details>   
+
+    - [Descargar el instalador de node](https://nodejs.org/es/)
+    - 
     via npm:
 
     ```
@@ -71,11 +67,11 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ``sass`` es el directorio de los archivos de estilos en sass.
     
     - ``base`` es el directorio de los archivos de configuracion de sass.
-    
+
       ``components`` es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc)
-      
+
       ``layouts`` es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc)
-      
+
       ``main.scss`` es el archivo de estilos principal.
 
 </details >
