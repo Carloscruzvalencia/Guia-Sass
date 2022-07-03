@@ -193,7 +193,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```text
         /scss
             ├──style.scss
-            └──_landing.scss
+            └──landing.scss
         /css
             ├──style.css
             ├──style.css.map
@@ -202,7 +202,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```
 4. @use o @import
     
-    En sass no usamos @import se puede usar pero no es recomendado.
+    En sass no usamos @import se puede usar pero ``no es recomendado``.
 
     Con ❗❗@import❗❗
     ```sass
@@ -213,9 +213,16 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     @use "sass/layouts/landing.scss";
     ```
 
+5. todos los @use se suelen hacer en el archivo principal de estilos.
 
-5. Integramos sass en nuestro proyecto
+    El archivo main.scss normalmente deveria verse asi:
 
+    ```sass
+    @use "sass/layouts/landing.scss";
+    @use "sass/layouts/header.scss";
+    @use "sass/layouts/footer.scss";
+    ```
+6. 
 </details >
 
 
