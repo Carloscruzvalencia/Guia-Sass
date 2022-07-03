@@ -41,7 +41,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
    
    ```npx create-react-app nombre-del-proyecto```
 
-2. instalacion de sass 
+2. instalamos sass 
    
     <details>
 
@@ -51,8 +51,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
       - [Descargar el instalador de node](https://nodejs.org/es/)
 
     </details>   
-    via npm
-
+    via npm:
     ```npm install i sass```
 
 3. structura
