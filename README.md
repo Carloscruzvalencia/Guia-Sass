@@ -115,34 +115,36 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     }
     ```
     > **Note**
-    >
-    >  <details open>
-    >  <summary>⚙️ Como seria en CSS ⚙️</summary>
-    >          body {
-    >              color: #fff;
-    >              background-color: #000;
-    >          }
-    >          body main {
-    >              color: #fff;
-    >              background-color: #000;
-    >          }
-    >          body main nav {
-    >              color: #fff;
-    >              background-color: #000;
-    >          }
-    >          body main nav ul li {
-    >              color: #fff;
-    >              background-color: #000;
-    >          }
-    >          body main header {
-    >              color: #fff;
-    >              background-color: #000;
-    >          }
-    >          body main footer {
-    >              color: #fff;
-    >              background-color: #000;
-    >          }
-    >  </details >
+    <details>
+    <summary>⚙️ Como seria en CSS ⚙️</summary>
+
+        ```css	
+            body {
+                color: #fff;
+                background-color: #000;
+            }
+            body main {
+                color: #fff;
+                background-color: #000;
+            }
+            body main nav {
+                color: #fff;
+                background-color: #000;
+            }
+            body main nav ul li {
+                color: #fff;
+                background-color: #000;
+            }
+            body main header {
+                color: #fff;
+                background-color: #000;
+            }
+            body main footer {
+                color: #fff;
+                background-color: #000;
+            }
+        ```
+    </details >
 
     Si el archivo de estilos es ``main.sass``, entonces la sintaxis es:
     ```sass
@@ -202,10 +204,10 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```
 4. @use o @import
     
-    **Note**
+    > **Note**
     En sass no usamos @import se puede usar pero ``no es recomendado``.
 
-    **Warning**
+    > **Warning**
     Con ❗❗@import❗❗
     ```sass
     @import "sass/layouts/landing.scss";
@@ -217,7 +219,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
 5. todos los @use se suelen hacer en el archivo principal de estilos.
 
-    **Note**
+    > **Note**
     El archivo main.scss normalmente deveria verse asi:
 
     ```sass
