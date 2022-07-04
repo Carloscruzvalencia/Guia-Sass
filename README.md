@@ -116,10 +116,8 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```
     > **Note**
     >
-    >  <details>
+    >  <details open>
     >  <summary>⚙️ Como seria en CSS ⚙️</summary>
-    >
-    >      ```css	
     >          body {
     >              color: #fff;
     >              background-color: #000;
@@ -144,7 +142,6 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     >              color: #fff;
     >              background-color: #000;
     >          }
-    >      ```
     >  </details >
 
     Si el archivo de estilos es ``main.sass``, entonces la sintaxis es:
