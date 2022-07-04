@@ -34,7 +34,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 <!-- <details> el desplegable estara desactivado -->
 <!-- <details open> el desplegable estara activo -->
 
-<details>
+<details open>
 <summary>⚙️ Instalacion y integracion de sass en react ⚙️</summary>
 
 1. Crearmos el proyecto de react
@@ -59,15 +59,16 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
               └── main.scss
     ```
 
-    ``sass`` Es el directorio de los archivos de estilos en sass.
+    ``sass`` Es el directorio de los archivos de estilos en sass. [sass](src/sass/)
+
     
-    - ``base`` Es el directorio de los archivos de configuracion de sass.
+    - ``base`` Es el directorio de los archivos de configuracion de sass. [sass/base](src/sass/base/)
 
-      ``components`` Es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc)
+      ``components`` Es el directorio donde se guardan los archivos de los diferentes componentes. (buttons, cards, etc) [sass/components](src/sass/components/)
 
-      ``layouts`` Es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc)
+      ``layouts`` Es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc) [sass/layouts](src/sass/layouts/)
 
-      ``main.scss`` Es el archivo de estilos principal.
+      ``main.scss`` Es el archivo de estilos principal. [sass/main.scss](src/sass/main.scss)
 
 4. Integramos sass en nuestro proyecto
    
@@ -113,6 +114,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
         }
     }
     ```
+    **Note**
     <details>
     <summary>⚙️ Como seria en CSS ⚙️</summary>
 
@@ -202,8 +204,10 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     ```
 4. @use o @import
     
+    **Note**
     En sass no usamos @import se puede usar pero ``no es recomendado``.
 
+    **Warning**
     Con ❗❗@import❗❗
     ```sass
     @import "sass/layouts/landing.scss";
@@ -215,13 +219,16 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
 5. todos los @use se suelen hacer en el archivo principal de estilos.
 
+    **Note**
     El archivo main.scss normalmente deveria verse asi:
 
     ```sass
-    @use "sass/layouts/landing.scss";
-    @use "sass/layouts/header.scss";
-    @use "sass/layouts/footer.scss";
+    @use "base/settings.scss";
+    @use "components/button.scss";
+    @use "layouts/landing.scss";
     ```
+    [main.scss](src/sass/main.scss)
+
 6. 
 </details >
 
