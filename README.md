@@ -115,37 +115,37 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     }
     ```
     > **Note**
-    
-    <details>
-    <summary>⚙️ Como seria en CSS ⚙️</summary>
-
-        ```css	
-            body {
-                color: #fff;
-                background-color: #000;
-            }
-            body main {
-                color: #fff;
-                background-color: #000;
-            }
-            body main nav {
-                color: #fff;
-                background-color: #000;
-            }
-            body main nav ul li {
-                color: #fff;
-                background-color: #000;
-            }
-            body main header {
-                color: #fff;
-                background-color: #000;
-            }
-            body main footer {
-                color: #fff;
-                background-color: #000;
-            }
-        ```
-    </details >
+    >
+    >  <details>
+    >  <summary>⚙️ Como seria en CSS ⚙️</summary>
+    >
+    >      ```css	
+    >          body {
+    >              color: #fff;
+    >              background-color: #000;
+    >          }
+    >          body main {
+    >              color: #fff;
+    >              background-color: #000;
+    >          }
+    >          body main nav {
+    >              color: #fff;
+    >              background-color: #000;
+    >          }
+    >          body main nav ul li {
+    >              color: #fff;
+    >              background-color: #000;
+    >          }
+    >          body main header {
+    >              color: #fff;
+    >              background-color: #000;
+    >          }
+    >          body main footer {
+    >              color: #fff;
+    >              background-color: #000;
+    >          }
+    >      ```
+    >  </details >
 
     Si el archivo de estilos es ``main.sass``, entonces la sintaxis es:
     ```sass
