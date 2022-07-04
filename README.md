@@ -114,7 +114,8 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
         }
     }
     ```
-    **Note**
+    > **Note**
+    
     <details>
     <summary>⚙️ Como seria en CSS ⚙️</summary>
 
