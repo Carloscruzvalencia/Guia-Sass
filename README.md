@@ -115,13 +115,13 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     }
     ```
     > **Note**
-    <details>
+    <details open>
     <summary>⚙️ Como seria en CSS ⚙️</summary>
-
-        ```css	
+    
+    ```css
             body {
-                color: #fff;
-                background-color: #000;
+            color: #fff;
+            background-color: #000;
             }
             body main {
                 color: #fff;
@@ -143,10 +143,11 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
                 color: #fff;
                 background-color: #000;
             }
-        ```
+    ```
     </details >
 
     Si el archivo de estilos es ``main.sass``, entonces la sintaxis es:
+
     ```sass
     body
       color: #fff
@@ -173,11 +174,10 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
           color: #fff
           background-color: #000
     ```
+    > **Warning**
     En los archivos ``.sass`` no se usan los caracteres ``{`` ``}`` ``;``.
 
-2. Creamos un archivo en el directorio sass/layouts con el nombre de ``_landing.scss``
-
-3. Diferencia entre _landing.scss y landing.scss
+3. Diferencia entre archivos con ``_``landing.scss y archivos sin landing.scss
 
     En sass si un archivo enpieza con ``_``landing.scss no se genera un archivo con el mismo nombre.
 
@@ -208,10 +208,13 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     En sass no usamos @import se puede usar pero ``no es recomendado``.
 
     > **Warning**
+
     Con ❗❗@import❗❗
     ```sass
     @import "sass/layouts/landing.scss";
     ```
+    > **Note**
+    
     con ✔️✔️ @use ✔️✔️
     ```sass
     @use "sass/layouts/landing.scss";
@@ -228,10 +231,13 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     @use "layouts/landing.scss";
     ```
     [main.scss](src/sass/main.scss)
-
-6. 
 </details >
 
+<details opne>
+<summary>⚙️ variables ⚙️</summary>
+
+
+</details>
 
 <!-- └── / ├── │ -->
 

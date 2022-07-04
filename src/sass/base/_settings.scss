@@ -1,0 +1,16 @@
+// Esconder el scroll
+// ::-webkit-scrollbar{
+//     display: none;
+// }
+
+* {
+    list-style-type: none;
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+    margin-inline-start: 0vw;
+    margin-inline-end: 0vw;
+    padding-inline-start: 0vw;
+    user-select: none;
+    text-decoration: none;
+    color: black;
+}
