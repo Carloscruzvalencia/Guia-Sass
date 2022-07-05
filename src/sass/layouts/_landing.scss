@@ -1,19 +1,20 @@
-@use "../base/variables" as *;
-
 body{
     margin: 0;
+    // background-image: url(../../);
+    // background-repeat: none;
+    // background-size: cover;
+    // background-position: center;
 
     // Desavilitar escroll en el body
     // overflow-y: hidden;
     // overflow-x: hidden;
 
     main{
-        background-color: $base-color;
-        height: auto;
+        background-color: white;
+        height: 100vh;
         .grid-container{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
         }
     }
     // aside{

@@ -79,7 +79,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 </details >
 
 
-<details open>
+<details>
 <summary>⚙️ Como usar sass ⚙️</summary>
 
 1. La anidacion
@@ -395,7 +395,7 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 
 </details>
 
-<details open>
+<details>
 <summary>⚙️  mixins ⚙️</summary>
 
 1. Los mixins nos permiten evitar repetir codigo.
@@ -479,17 +479,3 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
 ## Licencia
 
 Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
-
-<!-- ## !codigo temporal¡
-## git update code
-```shell
-git add -A && git commit -a -m \"update\" && git push
-```
-
-## sass compiler code
-```shell
-sass -w --style compressed assets/styles/sass/main.scss assets/styles/css/main.css
-``` -->
-
-<!-- emojis  -->
-<!-- https://tutorialmarkdown.com/emojis -->
