@@ -190,6 +190,8 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
             └──style.css.map
     ```
 
+    > **Warning**
+
     Pero si un archivo no tiene el caracter ``_`` landing.scss se genera un archivo con el mismo nombre.
 
     ```text
@@ -199,9 +201,14 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
         /css
             ├──style.css
             ├──style.css.map
-            ├──landing.scss
-            └──landing.scss.map
+            ├──landing.scss       Archivos generados al compilar sass  
+            └──landing.scss.map   Archivos generados al compilar sass
     ```
+
+    > **Note**
+
+    Esto puede ser util en algunos casos.
+
 4. @use o @import
     
     > **Note**
@@ -233,9 +240,17 @@ El diseño web se ha creado en [Figma](https://www.figma.com/file/kP0SJhf4iDDa9k
     [main.scss](src/sass/main.scss)
 </details >
 
-<details opne>
+<details open>
 <summary>⚙️ variables ⚙️</summary>
 
+1. Las variables se definen en el archivo de configuracion de sass.
+
+    ```sass
+    $primary-color: #fff;
+    $secondary-color: #000;
+    $tertiary-color: #fff;
+    $quaternary-color: #000;
+    ```
 
 </details>
 

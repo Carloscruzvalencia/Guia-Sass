@@ -1,15 +1,19 @@
+@import "../base/variables.scss";
 body{
     margin: 0;
 
     // Desavilitar escroll en el body
     // overflow-y: hidden;
     // overflow-x: hidden;
-    header{
 
-    }
     main{
-        width: 100vw;
-        height: 100vh;
+        background-color: var($base-color);
+        height: auto;
+        .grid-container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+        }
     }
     // aside{
 
