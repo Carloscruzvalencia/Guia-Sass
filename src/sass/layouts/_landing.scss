@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 body{
     margin: 0;
 
@@ -6,7 +8,7 @@ body{
     // overflow-x: hidden;
 
     main{
-        background-color: var($base-color);
+        background-color: $base-color;
         height: auto;
         .grid-container{
             display: grid;
