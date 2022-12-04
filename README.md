@@ -17,8 +17,8 @@
     <code><img height="30" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></code><!-- css -->
     <code><img height="30" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></code><!-- sass -->
     <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code>
-<details>
-<summary>⚙️ Instalacion de sass⚙️</summary>
+<details open>
+<summary >⚙️ Instalacion de sass⚙️</summary>
 
 1. Instalamos sass  
 
@@ -48,17 +48,10 @@
       ``layouts`` Es el directorio donde se guardan los archivos de los diferentes layouts. (header, footer, etc) [sass/layouts](src/sass/layouts/)
 
       ``main.scss`` Es el archivo de estilos principal. [sass/main.scss](src/sass/main.scss)
-
-3. Integramos sass en nuestro proyecto
-   
-   En el archivo [app.js](src/app.js) en la carpeta [src](src) agregamos el siguiente codigo:
-   ```js
-    import './sass/main.scss';
-    ```
 </details >
 
 
-<details>
+<details open>
 <summary>⚙️ Como usar sass ⚙️</summary>
 
 1. La anidacion
@@ -252,7 +245,7 @@
     [main.scss](src/sass/main.scss)
 </details >
 
-<details>
+<details open>
 <summary>⚙️ variables ⚙️</summary>
 
 1. Las variables se definen en [sass/base/_variables.scss](src/sass/base/_variables.scss).
@@ -374,7 +367,7 @@
 
 </details>
 
-<details>
+<details open>
 <summary>⚙️  mixins ⚙️</summary>
 
 1. Los mixins nos permiten evitar repetir codigo.
@@ -452,6 +445,54 @@
 
 </details>
 
+<details open>
+<summary>⚙️  loops ⚙️</summary>
+
+## if
+```sass
+@if $circle {
+    border-radius: $size / 2;
+}
+```
+
+## if else
+```sass
+@if $light-theme {
+    background-color: $light-background;
+    color: $light-text;
+} @else {
+    background-color: $dark-background;
+    color: $dark-text;
+}
+```
+
+## while
+```sass
+@while $value > $base {
+    $value: math.div($value, $ratio);
+}
+```
+
+## for 
+```sass
+$count: 0;
+@for $i from 0 to 3{
+    #{"#"+separator#{$i}}{
+        grid-area: 1/#{$i+1};
+
+        @for $j from 0 to 9{
+            #{"#"+content#{$count}}{
+                display: grid;
+            }
+            $count: $count +1;
+        }
+    };
+}
+```
+
+
+
+</details>
 <!-- └── / ├── │ -->
 
 
