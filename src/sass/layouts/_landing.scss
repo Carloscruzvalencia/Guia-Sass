@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 body{
     margin: 0;
     // background-image: url(../../);
@@ -10,8 +12,8 @@ body{
     // overflow-x: hidden;
 
     main{
-        background-color: white;
-        height: 100vh;
+        background-color: $background-color;
+        height: $height;
         .grid-container{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
