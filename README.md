@@ -18,7 +18,7 @@
     <code><img height="30" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></code><!-- sass -->
     <code><img height="30" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"></code>
 <details>
-<summary>⚙️ Instalacion y integracion de sass en react ⚙️</summary>
+<summary>⚙️ Instalacion de sass⚙️</summary>
 
 1. Instalamos sass  
 
@@ -27,7 +27,7 @@
     npm install -g sass
     ```
 
-3. Structura de sass (ejemplo)
+2. Structura de sass (ejemplo)
     ```text
     /
     └── src/
@@ -49,7 +49,7 @@
 
       ``main.scss`` Es el archivo de estilos principal. [sass/main.scss](src/sass/main.scss)
 
-4. Integramos sass en nuestro proyecto
+3. Integramos sass en nuestro proyecto
    
    En el archivo [app.js](src/app.js) en la carpeta [src](src) agregamos el siguiente codigo:
    ```js
