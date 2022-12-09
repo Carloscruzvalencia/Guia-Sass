@@ -489,13 +489,4 @@ $count: 0;
     };
 }
 ```
-
-
-
 </details>
-<!-- └── / ├── │ -->
-
-
-## Licencia
-
-Este proyecto está bajo la Licencia (MIT) - mira el archivo [LICENSE.md](LICENSE.md)  para mas detalles
